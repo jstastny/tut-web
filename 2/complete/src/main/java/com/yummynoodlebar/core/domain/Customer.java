@@ -3,7 +3,7 @@ package com.yummynoodlebar.core.domain;
 public class Customer {
   private String name;
 
-  private String streetAdress;
+  private String streetAddress;
   private String city;
   private String postalCode;
 
@@ -23,12 +23,12 @@ public class Customer {
     this.city = city;
   }
 
-  public String getStreetAdress() {
-    return streetAdress;
+  public String getStreetAddress() {
+    return streetAddress;
   }
 
-  public void setStreetAdress(String streetAdress) {
-    this.streetAdress = streetAdress;
+  public void setStreetAddress(String streetAddress) {
+    this.streetAddress = streetAddress;
   }
 
   public String getName() {
